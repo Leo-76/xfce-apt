@@ -18,3 +18,13 @@ Apres `xfce-macos-1/2/3 install` : fond Monterey, barre du haut, dock Plank a 5 
 Plank exige `XDG_SESSION_TYPE=x11` dans l'environnement de session.
 
 ![rendu](captures/rendu-xfce.png)
+
+Thunar et terminal (paquet `xfce-macos-3` installe) :
+
+![apps](captures/apps.png)
+
+Reglages :
+
+![reglages](captures/reglages.png)
+
+Note : le fond Monterey n'est applique que si `xfce-macos-3 install` est lance dans une session XFCE ouverte (il utilise `xfconf-query`). Installe hors session, le fond reste celui par defaut.
