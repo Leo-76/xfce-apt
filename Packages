@@ -1,0 +1,48 @@
+Package: xfce-macos-1
+Version: 0.1+64b812a
+Architecture: all
+Maintainer: Leo-76 <leo-76@users.noreply.github.com>
+Depends: curl, tar
+Filename: ./xfce-macos-1_0.1+64b812a_all.deb
+Size: 2032
+MD5sum: aa4d22d9979f0bace394b643f67718aa
+SHA1: 0dd4c083c32b7bf427157ad3d8946660c273d157
+SHA256: adceb7cdef6b3af7b6dad600b9278827d4e791652615018df6882e8cd4b6f027
+Section: x11
+Priority: optional
+Description: Kit macOS 1 pour XFCE (themes, icones, dock)
+ Le paquet n'embarque aucun fichier de l'original : la commande xfce-macos-1
+ telecharge la version figee de l'original (info | fetch | install | remove).
+
+Package: xfce-macos-2
+Version: 0.1+f8f2471
+Architecture: all
+Maintainer: Leo-76 <leo-76@users.noreply.github.com>
+Depends: curl, tar
+Filename: ./xfce-macos-2_0.1+f8f2471_all.deb
+Size: 1932
+MD5sum: 448576e4f508029be8a37ac80769e27e
+SHA1: 1a0f265864c2cdfb88a042f9b7201378863796e6
+SHA256: 47e4cd706335a71ab66aa3490e052e119739e90fee8844245fdda03d2556d893
+Section: x11
+Priority: optional
+Description: Kit macOS 2 pour XFCE (dock, wallpaper, panneau)
+ Le paquet n'embarque aucun fichier de l'original : la commande xfce-macos-2
+ telecharge la version figee de l'original (info | fetch | install | remove).
+
+Package: xfce-macos-3
+Version: 0.1+f01f86a
+Architecture: all
+Maintainer: Leo-76 <leo-76@users.noreply.github.com>
+Depends: curl, tar, xz-utils
+Filename: ./xfce-macos-3_0.1+f01f86a_all.deb
+Size: 1964
+MD5sum: 1f7596bf7678ee230b2ecf148e18bd1f
+SHA1: c683e45fca8d4cb8a5fa300771c000365197bd59
+SHA256: b56606906bee94d0304e4c3382e4127f733e5a00abbd4d39494711434badec6f
+Section: x11
+Priority: optional
+Description: Kit macOS 3 pour XFCE (themes GTK, icones, curseurs)
+ Le paquet n'embarque aucun fichier de l'original : la commande xfce-macos-3
+ telecharge la version figee de l'original (info | fetch | install | remove).
+
