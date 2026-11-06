@@ -1,5 +1,5 @@
 #!/bin/sh
-# Construit les .deb xfce-macos-N et l'index apt (depot plat).
+# Construit les .deb (xfce-skinpack, xfce-smallsur, xfce-ventura) et l'index apt (depot plat).
 # usage : sh build-deb.sh SRC_XPKG SORTIE
 set -eu
 SRC=$1; OUT=$2; mkdir -p "$OUT"; W=$(mktemp -d)

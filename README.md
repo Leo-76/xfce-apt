@@ -9,4 +9,12 @@ Depot NON signe (pas de cle GPG), donc `trusted=yes` :
     sudo apt update && sudo apt install xfce-macos-1 xfce-macos-2 xfce-macos-3
 
 Teste : construction sur Debian, `apt-get install` / `remove` des 3 paquets depuis une source `file:`.
-Non teste : via HTTP (Pages), signature GPG, rendu sous XFCE.
+Teste aussi : `apt update` / `apt install` via HTTPS (Pages) ; rendu sous XFCE 4 (Debian 13, Plank, X11).
+Non teste : signature GPG (depot en `trusted=yes`), menu global (le plugin `appmenu` n'existe pas dans Debian 13 : remplace par le menu Applications).
+
+## Rendu
+
+Apres `xfce-macos-1/2/3 install` : fond Monterey, barre du haut, dock Plank a 5 icones (Fichiers, Terminal, Navigateur, Recherche, Reglages).
+Plank exige `XDG_SESSION_TYPE=x11` dans l'environnement de session.
+
+![rendu](captures/rendu-xfce.png)
