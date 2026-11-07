@@ -3,14 +3,16 @@
 Paquets : `xfce-macos-1`, `xfce-macos-2`, `xfce-macos-3`. Chacun installe une commande `/usr/bin/xfce-macos-N`
 (`info | fetch | install | remove`). Aucun fichier d'original n'est embarque : ils sont telecharges a l'usage.
 
-Depot NON signe (pas de cle GPG), donc `trusted=yes` :
+Depot **signe** (GPG ed25519, `InRelease` + `Release.gpg`). Empreinte : `4049 47D7 6CF0 31E6 1D1D  AE98 2EB8 B460 33C2 FD02`.
 
-    echo "deb [trusted=yes] https://leo-76.github.io/xfce-apt ./" | sudo tee /etc/apt/sources.list.d/leo.list
-    sudo apt update && sudo apt install xfce-macos-1 xfce-macos-2 xfce-macos-3
+    sudo mkdir -p /etc/apt/keyrings
+    sudo curl -fsSL https://leo-76.github.io/xfce-apt/xfce-apt.gpg -o /etc/apt/keyrings/xfce-apt.gpg
+    echo "deb [signed-by=/etc/apt/keyrings/xfce-apt.gpg] https://leo-76.github.io/xfce-apt ./" | sudo tee /etc/apt/sources.list.d/leo.list
+    sudo apt update && sudo apt install xfce-macos-3
 
 Teste : construction sur Debian, `apt-get install` / `remove` des 3 paquets depuis une source `file:`.
 Teste aussi : `apt update` / `apt install` via HTTPS (Pages) ; rendu sous XFCE 4 (Debian 13, Plank, X11).
-Non teste : signature GPG (depot en `trusted=yes`), menu global (le plugin `appmenu` n'existe pas dans Debian 13 : remplace par le menu Applications).
+Non teste : menu global (le plugin `appmenu` n'existe pas dans Debian 13 : remplace par le menu Applications).
 
 ## Rendu
 
