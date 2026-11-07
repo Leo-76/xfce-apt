@@ -14,7 +14,7 @@ Non teste : signature GPG (depot en `trusted=yes`), menu global (le plugin `appm
 
 ## Rendu
 
-Apres `xfce-macos-1/2/3 install` : fond Monterey, barre du haut, dock Plank a 5 icones (Fichiers, Terminal, Navigateur, Recherche, Reglages).
+Apres `xfce-macos-1/2/3 install` : fond Ventura, barre du haut, dock Plank a 5 icones (Fichiers, Terminal, Navigateur, Recherche, Reglages).
 Plank exige `XDG_SESSION_TYPE=x11` dans l'environnement de session.
 
 ![rendu](captures/rendu-xfce.png)
@@ -27,4 +27,4 @@ Reglages :
 
 ![reglages](captures/reglages.png)
 
-Note : le fond Monterey n'est applique que si `xfce-macos-3 install` est lance dans une session XFCE ouverte (il utilise `xfconf-query`). Installe hors session, le fond reste celui par defaut.
+Note : le fond Ventura n'est applique que si `xfce-macos-3 install` est lance dans une session XFCE ouverte (il utilise `xfconf-query`). Installe hors session, le fond reste celui par defaut.
