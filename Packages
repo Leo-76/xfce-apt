@@ -5,9 +5,9 @@ Maintainer: Leo-76 <leo-76@users.noreply.github.com>
 Depends: curl, tar
 Filename: ./xfce-macos-1_0.1+64b812a_all.deb
 Size: 2032
-MD5sum: 1a874084a5513cd139ef5ad979928e9e
-SHA1: ca6c1f7fdd3155b484e8c680d884d748ce2c2927
-SHA256: 634d0011f12c8da35c1637f9bd0408ce027610f9213247687b5ce7f2fbacad7a
+MD5sum: 009599ec95d6c958f38db6af36bda0af
+SHA1: 190b8185c1805de7fdd596d4215adfecf19553ab
+SHA256: cf131f2276840dbe71a14743e9ec330ba9819bf7029a16420734b024baf61566
 Section: x11
 Priority: optional
 Description: Kit macOS 1 pour XFCE (themes, icones, dock)
@@ -21,9 +21,9 @@ Maintainer: Leo-76 <leo-76@users.noreply.github.com>
 Depends: curl, tar
 Filename: ./xfce-macos-2_0.1+f8f2471_all.deb
 Size: 1928
-MD5sum: df9488174d52a818155a11452336a4aa
-SHA1: 162231bede4cc91cfedf1698df41c965c49e0231
-SHA256: a5da611b246761f4186236a22813d562ecb865216d01851b1ecd6abdc0769dd2
+MD5sum: c8cde181ed5583c1f64e3a8271dbdc48
+SHA1: 3998f1e0112b3ef3e672c10114e83399f452e990
+SHA256: 38a67d042343db09232db13896dadf321d349ccf88ba3aceecb3af942bb423eb
 Section: x11
 Priority: optional
 Description: Kit macOS 2 pour XFCE (dock, wallpaper, panneau)
@@ -36,10 +36,10 @@ Architecture: all
 Maintainer: Leo-76 <leo-76@users.noreply.github.com>
 Depends: curl, tar, xz-utils
 Filename: ./xfce-macos-3_0.1+f01f86a_all.deb
-Size: 2836
-MD5sum: 6419a2f0018350f3c9fbd2446979845e
-SHA1: cbfd68fb61a137e25a378dc4d436697475834128
-SHA256: b1a07776f43a0b6967710db845822d3307f2bf7fdb12a3ed22a33dcc7c39137b
+Size: 3288
+MD5sum: ea40bf1b28588e204650e093f3cf49de
+SHA1: 81496aa0c05dc878cbd28af49d667464896f7565
+SHA256: 3fb5942e1223e0f95d19c350fcd9b68c4bafc41898af176ea972f73b3bafba2d
 Section: x11
 Priority: optional
 Description: Kit macOS 3 pour XFCE (themes GTK, icones, curseurs)
